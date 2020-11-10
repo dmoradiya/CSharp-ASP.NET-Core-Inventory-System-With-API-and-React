@@ -1,0 +1,4 @@
+# ASP.NET Core Assignment - Inventory System With React And API
+## Introduction
+This assignment is meant to challenge your mastery of ASP.NET Core and how well you are able to use ASP.NET Core Web API to create a CRUD application. Your goal in this assignment is to create an inventory management system which helps a company keep track of goods and supplies. As goods and supplies are restocked, sold, or used, your application should update the data appropriately to reflect the changes. This is a cumulative activity. Use your code from ASP.NET Core Practice - Inventory System Day 1 as a starting point.
+#### Trello : https://trello.com/b/ZzOd62v7/et-core-practice-inventory-system
