@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inventory_System_With_React", "Inventory_System_With_React.csproj", "{D7EBA3E0-8E97-425C-9FA8-5D1B5F18F21D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7EBA3E0-8E97-425C-9FA8-5D1B5F18F21D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7EBA3E0-8E97-425C-9FA8-5D1B5F18F21D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7EBA3E0-8E97-425C-9FA8-5D1B5F18F21D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7EBA3E0-8E97-425C-9FA8-5D1B5F18F21D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68DE2F73-A702-4FE7-9E8A-AE32DC107C34}
+	EndGlobalSection
+EndGlobal
