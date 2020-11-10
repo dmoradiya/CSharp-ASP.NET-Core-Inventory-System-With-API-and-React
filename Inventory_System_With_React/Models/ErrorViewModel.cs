@@ -1,6 +1,6 @@
 using System;
 
-namespace Inventory_System.Models
+namespace Inventory_System_With_React.Models
 {
     public class ErrorViewModel
     {

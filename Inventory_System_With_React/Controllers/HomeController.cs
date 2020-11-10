@@ -5,9 +5,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Inventory_System.Models;
+using Inventory_System_With_React.Models;
 
-namespace Inventory_System.Controllers
+namespace Inventory_System_With_React.Controllers
 {
     public class HomeController : Controller
     {

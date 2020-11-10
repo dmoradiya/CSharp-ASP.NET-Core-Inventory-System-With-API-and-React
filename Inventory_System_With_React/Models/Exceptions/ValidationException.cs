@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Inventory_System.Models.Exceptions
+namespace Inventory_System_With_React.Models.Exceptions
 {
     public class ValidationException : Exception
     {

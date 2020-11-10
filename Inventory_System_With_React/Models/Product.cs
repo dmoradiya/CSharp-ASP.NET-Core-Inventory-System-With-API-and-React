@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Inventory_System.Models
+namespace Inventory_System_With_React.Models
 {
     [Table("Product")]
     public class Product

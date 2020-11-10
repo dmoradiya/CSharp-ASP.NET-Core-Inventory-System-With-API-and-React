@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Inventory_System.Models;
-using Inventory_System.Models.Exceptions;
+using Inventory_System_With_React.Models;
+using Inventory_System_With_React.Models.Exceptions;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Inventory_System.Controllers
+namespace Inventory_System_With_React.Controllers
 {
     [Route("[controller]")]
     [ApiController]
