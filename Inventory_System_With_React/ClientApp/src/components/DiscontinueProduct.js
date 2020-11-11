@@ -6,6 +6,7 @@ function DiscontinueProduct(props) {
     const [statusCode, setStatusCode] = useState(0);
     const [response, setResponse] = useState([]);
     const [waiting, setWaiting] = useState(false);
+    const [isSubmit, setIsSubmit] = useState(false);
 
     function handleFieldChange(event) {
         switch (event.target.id) {
@@ -18,6 +19,7 @@ function DiscontinueProduct(props) {
     function handleSubmit(event) {
         event.preventDefault();
         setWaiting(true);
+        setIsSubmit(true);
 
         axios(
             {
@@ -37,13 +39,16 @@ function DiscontinueProduct(props) {
             setResponse(err.response.data);
             setStatusCode(err.response.status);
         });
+        event.target.reset();
     }
 
 
     return (
 
         <div>
-            <h1>Create Product</h1>
+            <h1>Discontinue Product</h1>
+
+            <p>{isSubmit ? <p>{waiting ? "Awaiting response..." : `Response recieved ${statusCode}: ${JSON.stringify(response)}`}</p> : ""}</p>
 
             <form onSubmit={handleSubmit}>
                 <label htmlFor="productID">Product ID</label>

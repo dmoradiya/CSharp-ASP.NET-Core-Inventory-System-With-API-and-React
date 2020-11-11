@@ -7,6 +7,7 @@ function SendProduct(props) {
     const [statusCode, setStatusCode] = useState(0);
     const [response, setResponse] = useState([]);
     const [waiting, setWaiting] = useState(false);
+    const [isSubmit, setIsSubmit] = useState(false);
 
     function handleFieldChange(event) {
         switch (event.target.id) {
@@ -22,6 +23,7 @@ function SendProduct(props) {
     function handleSubmit(event) {
         event.preventDefault();
         setWaiting(true);
+        setIsSubmit(true);
 
         axios(
             {
@@ -53,7 +55,9 @@ function SendProduct(props) {
 
         <div>
             <h1>Send Product</h1>
-            <p>{waiting ? "Awaiting response..." : `Response recieved ${statusCode}: ${JSON.stringify(response)}`}</p>
+            <p>{isSubmit ? <p>{waiting ? "Awaiting response..." : `Response recieved ${statusCode}: ${JSON.stringify(response)}`}</p> : "" }</p>
+
+           
 
             <form onSubmit={handleSubmit}>
                 <label htmlFor="productID">Product ID</label>
