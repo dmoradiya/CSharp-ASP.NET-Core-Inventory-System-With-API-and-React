@@ -60,7 +60,7 @@ function ReceiveProduct(props) {
                 <input id="productID" type="text" onChange={handleFieldChange} />
                 <label htmlFor="quantity">Product Quantity</label>
                 <input id="quantity" type="text" onChange={handleFieldChange} />
-                <input type="submit" value="Submit!" />
+                <input type="submit" className="btn btn-primary" value="Submit!" />
             </form>
         </div>
 

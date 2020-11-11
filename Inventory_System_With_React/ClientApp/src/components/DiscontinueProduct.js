@@ -53,7 +53,7 @@ function DiscontinueProduct(props) {
             <form onSubmit={handleSubmit}>
                 <label htmlFor="productID">Product ID</label>
                 <input id="productID" type="text" onChange={handleFieldChange} />
-                <input type="submit" value="Submit!" />
+                <input type="submit" className="btn btn-primary" value="Submit!" />
             </form>
         </div>
 

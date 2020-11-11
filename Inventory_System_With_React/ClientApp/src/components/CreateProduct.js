@@ -77,7 +77,7 @@ function CreateProduct(props) {
                     <option value="true">YES</option>
                     <option value="false">NO</option>
                 </select>
-                <input type="submit" value="Submit!" />
+                <input type="submit" className="btn btn-primary" value="Submit!" />
             </form>
         </div>
         
